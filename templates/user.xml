@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="log" value="console.log(&quot;msg: &quot;, item)" description="my logger" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
