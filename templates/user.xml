@@ -25,4 +25,17 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="spring2" value="const $name$$SELECTION$ = () =&gt; (&#10;  &lt;Spring&#10;    from={{ opacity: 0 }}&#10;    to={{ opacity: 1 }}&#10;    config={{ tension: 30, friction: 10 }}&#10;  &gt;&#10;    {(styles) =&gt; &lt;div style={styles}&gt;I change opacity when I mount&lt;/div&gt;}&#10;  &lt;/Spring&gt;&#10;)&#10;&#10;$END$" description="spring render props" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="useEffect" value="useEffect(() =&gt; {&#10;    $END$&#10;  })" description="useEffect" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
