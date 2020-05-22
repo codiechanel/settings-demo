@@ -3,6 +3,7 @@
     <default_templates>
       <template name="cool.tsx" reformat="true" live-template-enabled="true" />
       <template name="great.tsx" reformat="true" live-template-enabled="true" />
+      <template name="now.tsx" reformat="true" live-template-enabled="true" />
       <template name="ReactPage.tsx" reformat="true" live-template-enabled="true" />
       <template name="uncool.tsx" reformat="true" live-template-enabled="true" />
     </default_templates>
