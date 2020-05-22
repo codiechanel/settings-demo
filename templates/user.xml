@@ -12,4 +12,17 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="styled2" value="const $SELECTION$ = styled.div`&#10;  display: flex;&#10;  background-color: #ff5b5c;&#10;`&#10;&#10;$END$" description="styled div 2" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="spring1" value="function $name$$SELECTION$() {&#10;  const props = useSpring({opacity: 1, from: {opacity: 0}})&#10;  return &lt;animated.div style={props}&gt;I will fade in&lt;/animated.div&gt;&#10;}&#10;&#10;$END$" description="spring basic" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
