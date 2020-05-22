@@ -1,6 +1,7 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
+      <template name="demo1.tsx" reformat="true" live-template-enabled="true" />
       <template name="ReactPage.tsx" reformat="true" live-template-enabled="true" />
     </default_templates>
   </component>
