@@ -38,4 +38,10 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="impstyled" value="import styled from &quot;styled-components&quot;;" description="import syled" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
