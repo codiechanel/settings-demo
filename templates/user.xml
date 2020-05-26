@@ -44,4 +44,10 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="runInAction" value="runInAction(() =&gt; {&#10;          &#10;      })" description="runInAction mobx" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
