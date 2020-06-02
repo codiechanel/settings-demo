@@ -38,19 +38,19 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="impstyled" value="import styled from &quot;styled-components&quot;;" description="import syled" toReformat="true" toShortenFQNames="true">
+  <template name="impstyled" value="import styled from &quot;styled-components&quot;;&#10;$END$" description="import syled" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="runInAction" value="runInAction(() =&gt; {&#10;          &#10;      })" description="my runInAction mobx" toReformat="true" toShortenFQNames="true">
+  <template name="runInAction" value="runInAction(() =&gt; {&#10;          $END$&#10;      })" description="my runInAction mobx" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="onClick" value="onClick={() =&gt; {&#10;    &#10;  }}" description="my onclick" toReformat="true" toShortenFQNames="true">
+  <template name="onClick" value="onClick={() =&gt; {&#10;    $END$&#10;  }}" description="my onclick" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
