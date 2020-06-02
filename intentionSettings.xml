@@ -1,0 +1,42 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Flow JS/Specify variable type explicitly" />
+    <ignoreAction name="HTML/Update background-image size" />
+    <ignoreAction name="JavaScript/Boolean/DeMorgan law" />
+    <ignoreAction name="JavaScript/Boolean/Flip comparison" />
+    <ignoreAction name="JavaScript/Boolean/Flip conjunction operands" />
+    <ignoreAction name="JavaScript/Boolean/Negate comparison" />
+    <ignoreAction name="JavaScript/Boolean/Remove boolean equality" />
+    <ignoreAction name="JavaScript/Conditional Operator/Flip conditional" />
+    <ignoreAction name="JavaScript/Conditional Operator/Flip if" />
+    <ignoreAction name="JavaScript/Conditional Operator/Replace conditional with if-else" />
+    <ignoreAction name="JavaScript/Conditional Operator/Replace if-else with conditional" />
+    <ignoreAction name="JavaScript/Numbers/Convert to binary" />
+    <ignoreAction name="JavaScript/Numbers/Convert to decimal" />
+    <ignoreAction name="JavaScript/Numbers/Convert to hexadecimal" />
+    <ignoreAction name="JavaScript/Numbers/Convert to octal" />
+    <ignoreAction name="JavaScript/Other/Compute constant value" />
+    <ignoreAction name="JavaScript/Other/Compute constant value for subexpression" />
+    <ignoreAction name="JavaScript/Other/Extract increment" />
+    <ignoreAction name="JavaScript/Other/Replace assignment with operator assignment" />
+    <ignoreAction name="JavaScript/Other/Replace double-quoted string with single-quoted string" />
+    <ignoreAction name="JavaScript/Other/Replace single-quoted string with double-quoted string" />
+    <ignoreAction name="JavaScript/Shift Operation/Replace multiply with shift" />
+    <ignoreAction name="JavaScript/Shift Operation/Replace shift with multiply" />
+    <ignoreAction name="Shell script/Explain shell" />
+    <ignoreAction name="Shell script/Rename all occurrences" />
+    <ignoreAction name="XML/Add Xsi schema location for external resource" />
+    <ignoreAction name="XML/Choose Color" />
+    <ignoreAction name="XML/Collapse empty tag" />
+    <ignoreAction name="XML/Convert CDATA to text" />
+    <ignoreAction name="XML/Convert text to CData" />
+    <ignoreAction name="XML/Fetch external resource" />
+    <ignoreAction name="XML/Insert namespace prefix" />
+    <ignoreAction name="XML/Manually setup external resource" />
+    <ignoreAction name="XML/Rearrange tag attributes" />
+    <ignoreAction name="XML/Remove attribute" />
+    <ignoreAction name="XML/Remove tag" />
+    <ignoreAction name="XML/Reset to default namespace" />
+    <ignoreAction name="XML/Split current tag" />
+  </component>
+</application>
