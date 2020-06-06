@@ -1,0 +1,101 @@
+    const computeX = (event, ball) => {
+      let x =
+        Math.round(event.clientX) -
+        Math.round(ball.parentNode.getBoundingClientRect().left) -
+        Math.round(ball.offsetWidth / 2);
+      return x;
+    };
+    const computeY = (event, ball) => {
+      let y =
+        Math.round(event.clientY) -
+        Math.round(ball.parentNode.getBoundingClientRect().top) -
+        Math.round(ball.offsetHeight / 2);
+      return y;
+    };
+
+  /*   let gapX =
+            ref.current.getBoundingClientRect().left -
+            ref.current.parentNode.getBoundingClientRect().left;
+          let gapY =
+            ref.current.getBoundingClientRect().top -
+            ref.current.parentNode.getBoundingClientRect().top;*/
+          /*   let y =
+            e.touches[0].clientY -
+            ref.current.parentNode.getBoundingClientRect().top;*/
+
+          // console.log("tpiched", e.touches[0].clientX);
+          /*  let x =
+           e.touches[0].clientX -
+           ref.current.parentNode.getBoundingClientRect().left;*/
+
+{/* {options.map((x, j) => {
+                if (j === 0) {
+                  return null;
+                }
+                let i = x.value;
+
+                let ref = allRefs[i];
+
+                let layer = x.layer;
+                console.log("layer hhh", layer, ref);
+                if (layer.type === "IconNode") {
+                  return (
+                    <IconBox
+                      key={i}
+                      ref={ref}
+                      className="material-icons"
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        if (!move) {
+                          localStore.activeIndex = i;
+                        }
+
+                        //
+                      }}
+                    >
+                      {layer.iconName}
+                    </IconBox>
+                  );
+                } else if (layer.type === "RectangleNode") {
+                  return (
+                    <RectNode
+                      key={i}
+                      onDragStart={() => {
+                        return false;
+                      }}
+                      ref={ref}
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        if (!move) {
+                          /*todo: change this its hard coded */
+                          localStore.activeIndex = i;
+                        }
+
+                        //
+                      }}
+                    />
+                  );
+                } else if (layer.type === "TextNode") {
+                  return (
+                    <TextBox
+                      key={i}
+                      onDragStart={() => {
+                        return false;
+                      }}
+                      ref={ref}
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        if (!move) {
+                          // props.onLayerClick(i + 2);
+                          // setActiveIndex(i + 2);
+                          localStore.activeIndex = i;
+                        }
+
+                        //
+                      }}
+                    >
+                      {layer.label}
+                    </TextBox>
+                  );
+                }
+              })}*/}

@@ -1,0 +1,7 @@
+GET https://api.github.com/users/octocat/orgs
+Accept: application/json
+
+<> 2020-05-16T042213.200.json
+<> 2020-05-15T081204.200.json
+
+###

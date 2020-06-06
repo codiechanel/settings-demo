@@ -1,0 +1,25 @@
+# Write your query or mutation here
+{
+  file(id: "rHXOgNnjRUgWWmEQQOTC3f") {
+    name
+    pages {
+      name
+      frames {
+        name
+        rectangles {
+          name
+          type
+
+          fills {
+            color {
+              r
+            }
+          }
+          size {
+            width
+          }
+        }
+      }
+    }
+  }
+}

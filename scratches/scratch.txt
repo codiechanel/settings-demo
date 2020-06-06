@@ -1,0 +1,109 @@
+  <Rectangle
+                ref={inputRef}
+                onClick={(event) => {
+                  console.log("Rectangle");
+                  event.stopPropagation();
+                  // props.onLayerClick(1);
+                  localStore.activeIndex = 1;
+                }}
+              >
+
+{/* <select
+          className={css`
+            flex: 1;
+          `}
+          /* onFocus={() => {
+          blur();
+        }}*/
+          value={option}
+          onChange={(x) => {
+            let value = x.target.value;
+            setOption(value);
+          }}
+        >
+          <option value="rgb">rgb</option>
+          <option value="hsl">hsl</option>
+        </select>*/}
+
+3468649df8588c6cfe7a13142437ade62734bf05
+
+ return <Toast onClose={() => setShow({ msg: null})} show={showObj.msg != null} delay={1000} autohide>
+
+   <div onClick={() => {
+            navigate(`/editor/${box.id}`, {replace: true})
+        }}>
+
+
+    /*let bgShadowLight = polished.lighten(0.1, activeObject.backgroundColor)
+    let bgShadowDark = polished.darken(0.1, activeObject.backgroundColor)*/
+
+    /*let bgShadowLight = polished.tint(.1, activeObject.backgroundColor)
+      let bgShadowDark = polished.shade(0.1, activeObject.backgroundColor)*/
+    // let f = chroma.scale([bgShadowDark, activeObject.majorBackgroundColor, bgShadowLight])
+    // let f = chroma.bezier([ bgShadowDark,activeObject.backgroundColor,bgShadowLight])
+
+
+    {/*    <Button variant="primary" onClick={handleShow}>
+                    Launch demo modal
+                </Button>
+
+                <MyModal show={show} onHide={handleClose}/>*/
+    }
+
+
+      if (event.data.pluginMessage.type === 'networkRequest') {
+            var request = new XMLHttpRequest()
+            // This link has random lorem ipsum text
+            // request.open('GET', 'https://cors-anywhere.herokuapp.com/http://www.randomtext.me/download/text/lorem/ul-8/5-15')
+            request.open('GET', 'https://api.github.com/users/octocat/orgs')
+
+            request.responseType = 'text'
+            request.onload = () => {
+                console.log('request.response', request.response)
+                window.parent.postMessage({pluginMessage: request.response}, '*')
+            }
+            request.send()
+        } else
+
+         // figma.ui.postMessage({ type: 'networkRequest' })
+
+
+         /*export const onSend = (type, activeObject) => {
+             // const count = parseInt(this.textbox.value, 10)
+             parent.postMessage({pluginMessage: {type, activeObject}}, '*')
+         }*/
+
+         /*window.onmessage = async (event) => {
+             if (event.data.pluginMessage.type === 'networkRequest') {
+                 console.log('networkRequest')
+                 var request = new XMLHttpRequest()
+                 // This link has random lorem ipsum text
+                 request.open('GET', `https://${username}:${password}@${endpoint}`)
+                 request.responseType = 'text'
+                 request.onload = () => {
+                     window.parent.postMessage({pluginMessage: request.response}, '*')
+                 };
+                 request.send()
+             }
+         }*/
+
+
+         else if (event.data.pluginMessage.type === 'networkRequest') {
+                         var request = new XMLHttpRequest()
+                         // This link has random lorem ipsum text
+                         // request.open('GET', 'https://cors-anywhere.herokuapp.com/http://www.randomtext.me/download/text/lorem/ul-8/5-15')
+                         request.open('GET', `https://${username}:${password}@${endpoint}`)
+                         // request.open('GET', 'https://api.github.com/users/octocat/orgs')
+
+                         request.responseType = 'text'
+                         request.onload = () => {
+                             console.log('request.response', request.response)
+                             // window.parent.postMessage({pluginMessage: request.response}, '*')
+                         }
+                         request.send()
+                     }
+
+                         const [show, setShow] = useState(false)
+
+                         const handleClose = () => setShow(false)
+                         const handleShow = () => setShow(true)
